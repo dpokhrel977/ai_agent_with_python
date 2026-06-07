@@ -115,3 +115,5 @@ if __name__ == "__main__":
     print("Hello Langchain Agent")
     print()
     run_agent("what is the price of laptop after applying bronze tier discount?")
+    print("=" * 60)
+    print("Compeleted")
