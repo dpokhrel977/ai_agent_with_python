@@ -2,13 +2,13 @@ from email import message
 
 from dotenv import load_dotenv
 from langsmith import traceable
-
-load_dotenv()
-
 import langchain
 from langchain.chat_models import init_chat_model
 from langchain.tools import tool
 from langchain_core.messages import HumanMessage, SystemMessage, ToolMessage
+
+load_dotenv()
+
 
 MAX_ITERATION = 10
 # MODEL = "qwen3.5:0.8b"
