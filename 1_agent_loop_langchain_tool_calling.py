@@ -1,8 +1,5 @@
-from email import message
-
 from dotenv import load_dotenv
 from langsmith import traceable
-import langchain
 from langchain.chat_models import init_chat_model
 from langchain.tools import tool
 from langchain_core.messages import HumanMessage, SystemMessage, ToolMessage
