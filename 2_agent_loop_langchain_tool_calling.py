@@ -181,4 +181,4 @@ def run_agent(question: str):
 if __name__ == "__main__":
     print("Hello LangChain Agent (.bind_tools)!")
     print()
-    result = run_agent("What is the price of a ab after applying a gold discount?")
+    result = run_agent("What is the price of a laptop after applying a gold discount?")
